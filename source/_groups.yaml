@@ -1,0 +1,52 @@
+!!omap
+
+- $large$common$timetable: true
+- $common$timetable: &common-timetable !!omap
+  - 2017-11-07: [   2, 3]
+  - 2017-11-08: [1, 2, 3]
+  - 2017-11-09: [1, 2, 3]
+  - 2017-11-10: [1, 2, 3]
+  - 2017-11-11: [1, 2, 3]
+  - 2017-11-12: [       ]
+  - 2017-11-13: [1, 2, 3]
+  - 2017-11-14: [1, 2, 3]
+  - 2017-11-15: [1, 2   ]
+  - 2017-11-16: [1, 2, 3]
+  - 2017-11-17: [1, 2, 3]
+  - 2017-11-18: [1, 2   ]
+
+- $large$groups[g9r1]: true
+- $groups[g9r1]:
+    name: Моли # 9-1
+    timetable: *common-timetable
+
+- $large$groups[g9r2]: true
+- $groups[g9r2]:
+    name: Амперы # 9-2
+    timetable: *common-timetable
+
+- $large$groups[g9r3]: true
+- $groups[g9r3]:
+    name: Канделы # 9-3
+    timetable: *common-timetable
+
+- $large$groups[g10r1]: true
+- $groups[g10r1]:
+    name: Секунды # 10-1
+    timetable: *common-timetable
+
+- $large$groups[g10r2]: true
+- $groups[g10r2]:
+    name: Кельвины # 10-2
+    timetable: *common-timetable
+
+- $large$groups[g11r1]: true
+- $groups[g11r1]:
+    name: Килограммы # 11-1
+    timetable: *common-timetable
+
+- $large$groups[g11r2]: true
+- $groups[g11r2]:
+    name: Метры # 11-2
+    timetable: *common-timetable
+
